@@ -1,0 +1,51 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(420 240) rotate(34) scale(780 620)">
+      <stop offset="0" stop-color="#2F66FF" stop-opacity="0.75"/>
+      <stop offset="0.45" stop-color="#0F172A" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#050608" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1220 660) rotate(138) scale(700 540)">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.46"/>
+      <stop offset="0.5" stop-color="#0A0B10" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#050608" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050608"/>
+      <stop offset="0.5" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#050608"/>
+    </linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#8CC4FF" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    </linearGradient>
+    <filter id="blur" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g3)"/>
+  <rect width="1600" height="900" fill="url(#g1)"/>
+  <rect width="1600" height="900" fill="url(#g2)"/>
+  <g filter="url(#blur)" opacity="0.9">
+    <circle cx="330" cy="260" r="180" fill="#6EA8FF" fill-opacity="0.24"/>
+    <circle cx="1220" cy="680" r="240" fill="#7C3AED" fill-opacity="0.18"/>
+    <circle cx="1080" cy="180" r="120" fill="#FFFFFF" fill-opacity="0.08"/>
+  </g>
+  <g opacity="0.16">
+    <rect x="0" y="0" width="1600" height="900" fill="url(#g4)"/>
+    <path d="M0 180H1600" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <path d="M0 360H1600" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <path d="M0 540H1600" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <path d="M0 720H1600" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <path d="M240 0V900" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <path d="M560 0V900" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <path d="M880 0V900" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <path d="M1200 0V900" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  </g>
+  <g opacity="0.7">
+    <path d="M234 632C330 538 428 492 540 492C650 492 742 530 812 606C884 684 972 724 1080 724C1178 724 1278 692 1380 628" stroke="#D7E6FF" stroke-opacity="0.28" stroke-width="2"/>
+    <path d="M178 392C286 332 392 302 500 302C618 302 704 336 770 404C842 480 930 518 1036 518C1148 518 1262 474 1378 386" stroke="#9AC7FF" stroke-opacity="0.28" stroke-width="2"/>
+  </g>
+</svg>
