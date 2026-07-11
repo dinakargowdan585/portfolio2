@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dinakar-gowda-n.vercel.app/sitemap.xml
